@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <title>Chúc mừng 8/3 - Gửi trọn yêu thương 🌸</title>
+  <meta name="description" content="Một món quà rực rỡ dành riêng cho những người phụ nữ tuyệt vời nhất.">
+  <meta name="theme-color" content="#ffb6c1">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chúc mừng ngày Quốc tế Phụ nữ 8/3">
+  <meta property="og:description" content="Một món quà nhỏ xinh dành riêng cho bạn trong ngày đặc biệt này.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts: Chọn font serif cực kỳ sang trọng cho phái nữ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Nunito:wght@300;400;600;700&display=swap&display=swap" rel="stylesheet">
+
+  <style>
+    /* 1. PREMIUM COLOR SYSTEM - WCAG AAA + Aesthetic Excellence */
+    :root {
+      /* Multi-layer gradient background */
+      --bg-gradient-1: linear-gradient(135deg, #fff5f8 0%, #ffe8f0 25%, #ffd6e0 50%, #ffc4d6 75%, #ffb5cc 100%);
+      --bg-gradient-2: radial-gradient(circle at 20% 80%, rgba(255, 182, 193, 0.3) 0%, transparent 50%);
+      --bg-gradient-3: radial-gradient(circle at 80% 20%, rgba(255, 215, 0, 0.15) 0%, transparent 50%);
+
+      /* Premium text colors - Perfect contrast */
+      --color-text-primary: #2d1650;
+      --color-text-secondary: #4a1f5e;
+      --color-text-muted: #6b4178;
+      --color-text-accent: #e91e63;
+
+      /* Sophisticated accent palette */
+      --color-gold: #d4af37;
+      --color-gold-light: #f0d98d;
+      --color-gold-dark: #b8941f;
+      --color-rose: #e91e63;
+      --color-rose-light: #ff6b9d;
+      --color-pink: #ff8fab;
+      --color-lavender: #e6d5f5;
+
+      /* Premium glassmorphism */
+      --glass-bg: rgba(255, 255, 255, 0.75);
+      --glass-bg-light: rgba(255, 255, 255, 0.95);
+      --glass-border: rgba(255, 255, 255, 0.8);
+      --glass-shadow-soft: rgba(233, 30, 99, 0.08);
+      --glass-shadow-medium: rgba(233, 30, 99, 0.12);
+      --glass-shadow-strong: rgba(233, 30, 99, 0.18);
+
+      /* Button gradient */
+      --btn-gradient: linear-gradient(135deg, var(--color-gold) 0%, var(--color-gold-light) 50%, var(--color-gold) 100%);
+      --btn-gradient-hover: linear-gradient(135deg, var(--color-gold-dark) 0%, var(--color-gold) 50%, var(--color-gold-light) 100%);
+
+      /* Typography */
+      --font-heading: 'Playfair Display', serif;
+      --font-body: 'Nunito', sans-serif;
+
+      /* Spacing - 8px grid */
+      --space-xs: 0.5rem;
+      --space-sm: 1rem;
+      --space-md: 1.5rem;
+      --space-lg: 2rem;
+      --space-xl: 3rem;
+      --space-2xl: 4rem;
+
+      /* Border radius - Harmonious scale */
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 28px;
+      --radius-xl: 36px;
+      --radius-full: 9999px;
+
+      /* Shadows - Multi-layer depth */
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06), 0 2px 8px rgba(0, 0, 0, 0.03);
+      --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.08), 0 4px 16px rgba(0, 0, 0, 0.04);
+      --shadow-xl: 0 20px 60px rgba(0, 0, 0, 0.12), 0 8px 24px rgba(0, 0, 0, 0.06);
+
+      /* Animations */
+      --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-base: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-bounce: 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* Multi-layer animated background */
+    @keyframes gradientFlow {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      /* Cho phép cuộn trên mobile nếu nội dung dài */
+      overflow-x: hidden;
+      overflow-y: auto;
+      position: relative;
+      font-family: var(--font-body);
+      color: var(--color-text-primary);
+      -webkit-tap-highlight-color: transparent;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body::before,
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    body::before {
+      background: var(--bg-gradient-1);
+      background-size: 200% 200%;
+      animation: gradientFlow 20s ease infinite;
+    }
+
+    body::after {
+      background: var(--bg-gradient-2), var(--bg-gradient-3);
+      opacity: 0.6;
+    }
+
+    /* 2. HIỆU ỨNG LỚP NỀN */
+    #canvas-bg, #canvas-ui {
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;
+    }
+    #canvas-bg { z-index: 1; }  /* Chứa cánh hoa rơi */
+    #canvas-ui { z-index: 10; } /* Chứa kim tuyến bắn ra (đè lên cả thiệp) */
+
+    .app-wrapper {
+      position: relative; z-index: 5;
+      min-height: 100vh; /* Đảm bảo bao phủ màn hình */
+      width: 100%;
+      display: flex; align-items: center; justify-content: center;
+      perspective: 1000px; /* Bật môi trường 3D cho parallax */
+      padding: var(--space-sm); /* Thêm padding để không sát lề trên mobile */
+    }
+
+    /* 3. PREMIUM CARD DESIGN */
+    .card-container {
+      position: relative;
+      width: 100%;
+      max-width: 560px;
+      transform-style: preserve-3d;
+      transition: transform var(--transition-fast) ease-out;
+      filter: drop-shadow(0 30px 80px rgba(233, 30, 99, 0.15));
+    }
+
+    /* Elegant entrance animation */
+    @keyframes cardReveal {
+      0% {
+        transform: translateY(60px) scale(0.92);
+        opacity: 0;
+        filter: blur(10px);
+      }
+      60% {
+        transform: translateY(-5px) scale(1.01);
+      }
+      100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+        filter: blur(0);
+      }
+    }
+
+    @keyframes shimmerGlow {
+      0%, 100% {
+        box-shadow:
+          0 20px 70px var(--glass-shadow-soft),
+          0 8px 24px var(--glass-shadow-medium),
+          0 0 0 1px rgba(255, 255, 255, 0.8),
+          inset 0 1px 0 rgba(255, 255, 255, 0.9),
+          inset 0 -1px 0 rgba(233, 30, 99, 0.05);
+      }
+      50% {
+        box-shadow:
+          0 25px 90px var(--glass-shadow-medium),
+          0 10px 30px var(--glass-shadow-strong),
+          0 0 0 1px rgba(255, 255, 255, 0.9),
+          inset 0 1px 0 rgba(255, 255, 255, 1),
+          inset 0 -1px 0 rgba(233, 30, 99, 0.08);
+      }
+    }
+
+    .glass-card {
+      position: relative;
+      background: var(--glass-bg);
+      backdrop-filter: blur(30px) saturate(180%);
+      -webkit-backdrop-filter: blur(30px) saturate(180%);
+      border: 2px solid var(--glass-border);
+      border-radius: var(--radius-xl);
+      padding: var(--space-2xl) var(--space-xl);
+      text-align: center;
+      box-shadow:
+        0 20px 70px var(--glass-shadow-soft),
+        0 8px 24px var(--glass-shadow-medium),
+        0 0 0 1px rgba(255, 255, 255, 0.8),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9),
+        inset 0 -1px 0 rgba(233, 30, 99, 0.05);
+      opacity: 0;
+      transform: translateY(60px) scale(0.92);
+      transition: all var(--transition-slow) cubic-bezier(0.34, 1.56, 0.64, 1);
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    /* Decorative gradient overlay */
+    .glass-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 120px;
+      background: linear-gradient(180deg,
+        rgba(255, 215, 0, 0.08) 0%,
+        rgba(255, 182, 193, 0.05) 50%,
+        transparent 100%);
+      border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+      pointer-events: none;
+    }
+
+    .glass-card.show {
+      animation: cardReveal 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) forwards,
+                 shimmerGlow 4s ease-in-out 1.2s infinite;
+      pointer-events: auto;
+      cursor: pointer;
+    }
+
+    .glass-card:hover {
+      border-color: rgba(212, 175, 55, 0.4);
+      transform: translateY(-2px);
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .glass-card {
+        padding: var(--space-lg) var(--space-md); /* Giảm padding trên mobile */
+        border-radius: var(--radius-md);
+      }
+    }
+
+    /* Premium Typography */
+    @keyframes textShine {
+      0% {
+        background-position: -200% center;
+      }
+      100% {
+        background-position: 200% center;
+      }
+    }
+
+    h1 {
+      position: relative;
+      font-family: var(--font-heading);
+      font-size: clamp(1.8rem, 5vw, 3.5rem); /* Điều chỉnh font size nhỏ hơn cho mobile */
+      font-weight: 700;
+      font-style: normal;
+      line-height: 1.15;
+      margin-bottom: var(--space-lg);
+      color: var(--color-text-primary);
+      letter-spacing: -0.01em;
+      text-shadow:
+        0 2px 12px rgba(233, 30, 99, 0.2),
+        0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Decorative accents */
+    h1::before,
+    h1::after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 3px;
+      background: linear-gradient(90deg,
+        transparent,
+        var(--color-gold),
+        var(--color-rose-light),
+        transparent);
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    h1::before {
+      left: -60px;
+    }
+
+    h1::after {
+      right: -60px;
+    }
+
+    @media (max-width: 768px) {
+      h1::before,
+      h1::after {
+        display: none;
+      }
+    }
+
+    .wishes-wrapper {
+      min-height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-md) var(--space-sm);
+      position: relative;
+    }
+
+    @keyframes textFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(15px) scale(0.95);
+        filter: blur(4px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+        filter: blur(0);
+      }
+    }
+
+    .wish-text {
+      font-size: clamp(1.075rem, 2.8vw, 1.35rem);
+      line-height: 1.8;
+      font-weight: 400;
+      color: var(--color-text-secondary);
+      text-wrap: balance;
+      opacity: 0;
+      transform: translateY(15px) scale(0.95);
+      transition: all var(--transition-bounce);
+      max-width: 90%;
+    }
+
+    .wish-text.active {
+      animation: textFadeIn 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+    }
+
+    /* Quote marks decoration */
+    .wish-text::before {
+      content: '"';
+      font-family: var(--font-heading);
+      font-size: 2.5em;
+      color: var(--color-gold);
+      opacity: 0.2;
+      position: absolute;
+      left: 0;
+      top: -10px;
+    }
+
+    .hint {
+      margin-top: var(--space-xl);
+      font-size: 0.925rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: var(--space-xs);
+      padding: var(--space-sm) var(--space-md);
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: var(--radius-full);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+      transition: all var(--transition-base);
+    }
+
+    .hint:hover {
+      background: rgba(255, 255, 255, 0.6);
+      border-color: rgba(212, 175, 55, 0.4);
+      transform: translateY(-1px);
+    }
+
+    @keyframes sparkleFloat {
+      0%, 100% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.7;
+      }
+      50% {
+        transform: translateY(-4px) rotate(10deg);
+        opacity: 1;
+      }
+    }
+
+    .hint span {
+      display: inline-block;
+      animation: sparkleFloat 2.5s ease-in-out infinite;
+    }
+
+    .hint span:last-child {
+      animation-delay: 0.3s;
+    }
+
+    /* 4. PREMIUM BUTTON - Luxurious gold with shine effect */
+    @keyframes buttonShine {
+      0% {
+        background-position: -200% center;
+      }
+      100% {
+        background-position: 200% center;
+      }
+    }
+
+    @keyframes buttonFloat {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-8px);
+      }
+    }
+
+    @keyframes buttonGlow {
+      0%, 100% {
+        box-shadow:
+          0 10px 35px rgba(212, 175, 55, 0.4),
+          0 5px 15px rgba(0, 0, 0, 0.1),
+          inset 0 2px 0 rgba(255, 255, 255, 0.5),
+          inset 0 -2px 0 rgba(184, 148, 31, 0.3);
+      }
+      50% {
+        box-shadow:
+          0 15px 50px rgba(212, 175, 55, 0.6),
+          0 8px 20px rgba(0, 0, 0, 0.15),
+          inset 0 2px 0 rgba(255, 255, 255, 0.6),
+          inset 0 -2px 0 rgba(184, 148, 31, 0.4);
+      }
+    }
+
+    .btn-start {
+      position: absolute;
+      /* Căn giữa nút tuyệt đối */
+      left: 0; right: 0; top: 0; bottom: 0; margin: auto;
+      width: fit-content; height: fit-content;
+
+      padding: 1.125rem 2.75rem;
+      border: none;
+      border-radius: var(--radius-full);
+      background: var(--btn-gradient);
+      background-size: 200% auto;
+      color: #ffffff;
+      font-family: var(--font-body);
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      text-shadow:
+        0 2px 4px rgba(0, 0, 0, 0.25),
+        0 1px 2px rgba(0, 0, 0, 0.15);
+      box-shadow:
+        0 10px 35px rgba(212, 175, 55, 0.4),
+        0 5px 15px rgba(0, 0, 0, 0.1),
+        inset 0 2px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -2px 0 rgba(184, 148, 31, 0.3);
+      cursor: pointer;
+      z-index: 10;
+      overflow: hidden;
+      transition: all var(--transition-base);
+      animation: buttonFloat 3.5s ease-in-out infinite,
+                 buttonGlow 3s ease-in-out infinite;
+    }
+
+    /* Shine overlay effect */
+    .btn-start::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.4),
+        transparent
+      );
+      transition: left 0.5s;
+    }
+
+    .btn-start:hover::before {
+      left: 100%;
+    }
+
+    .btn-start:hover,
+    .btn-start:focus-visible {
+      transform: translateY(-6px) scale(1.05);
+      background-position: 100% center;
+      box-shadow:
+        0 18px 60px rgba(212, 175, 55, 0.6),
+        0 8px 24px rgba(0, 0, 0, 0.15),
+        inset 0 2px 0 rgba(255, 255, 255, 0.6),
+        inset 0 -2px 0 rgba(184, 148, 31, 0.4);
+      animation: buttonGlow 3s ease-in-out infinite;
+      outline: 3px solid rgba(212, 175, 55, 0.3);
+      outline-offset: 4px;
+    }
+
+    .btn-start:active {
+      transform: translateY(-3px) scale(1.02);
+    }
+
+    .btn-start.hide {
+      opacity: 0;
+      transform: scale(0.7) translateY(-20px);
+      pointer-events: none;
+    }
+
+    /* Mobile button adjustments */
+    @media (max-width: 480px) {
+      .btn-start {
+        padding: 1rem 2.25rem;
+        font-size: 1rem;
+        width: max-content;
+      }
+      .wishes-wrapper {
+        min-height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Canvas cánh hoa rơi ở nền -->
+<canvas id="canvas-bg"></canvas>
+
+<main class="app-wrapper" id="scene">
+  <button id="btnOpen" class="btn-start" aria-label="Mở thiệp chúc mừng 8 tháng 3">
+    Xem Lời Chúc <span aria-hidden="true">💌</span>
+  </button>
+
+  <div class="card-container" id="cardWrap">
+    <article id="card" class="glass-card" role="article" aria-label="Thiệp chúc mừng">
+      <h1>Tháng Ba Rực Rỡ</h1>
+      <div class="wishes-wrapper" aria-live="polite" aria-atomic="true">
+        <p id="wishText" class="wish-text"></p>
+      </div>
+      <p class="hint" id="hintText"><span aria-hidden="true">✨</span> Chạm vào thiệp để xem tiếp <span aria-hidden="true">✨</span></p>
+    </article>
+  </div>
+</main>
+
+<!-- Canvas pháo hoa đè lên trên cùng -->
+<canvas id="canvas-ui"></canvas>
+
+<script>
+  (() => {
+    'use strict';
+
+    // --- 1. DATA ---
+    const wishes = [
+      "Chúc chị một ngày 8/3 rực rỡ như hoa mùa xuân, luôn mỉm cười và hạnh phúc viên mãn.",
+      "Hãy luôn yêu thương bản thân, vì chị là phiên bản duy nhất và tuyệt vời nhất trên thế giới này.",
+      "Chúc cho đôi mắt chị luôn lấp lánh niềm vui, và trái tim luôn đong đầy sự bình yên.",
+      "Phụ nữ sinh ra là để được trân trọng. Chúc bạn luôn được bao bọc trong tình yêu thương.",
+      "Dù ngoài kia có giông bão, mong chị vẫn giữ được sự dịu dàng nhưng mạnh mẽ của riêng mình. Chúc mừng 8/3!"
+    ];
+
+    // --- 2. LOGIC UI & INTERACTION ---
+    const DOM = {
+      btnOpen: document.getElementById('btnOpen'),
+      card: document.getElementById('card'),
+      cardWrap: document.getElementById('cardWrap'),
+      wishText: document.getElementById('wishText'),
+      hintText: document.getElementById('hintText'),
+      scene: document.getElementById('scene')
+    };
+
+    let currentIdx = 0;
+    let isAnimating = false;
+    let isFinished = false;
+
+    const changeWish = (e) => {
+      if (isAnimating) return;
+
+      // Nếu đã hết lời chúc, kích hoạt hiệu ứng nổ trái tim và không làm gì thêm
+      if (isFinished) {
+        triggerHeartExplosion();
+        return;
+      }
+
+      isAnimating = true;
+
+      DOM.wishText.classList.remove('active');
+
+      // Bắn pháo hoa tại vị trí click (hoặc giữa màn hình nếu click nút)
+      let clickX = e ? e.clientX : window.innerWidth / 2;
+      let clickY = e ? e.clientY : window.innerHeight / 2;
+      triggerSparkles(clickX, clickY);
+
+      setTimeout(() => {
+        DOM.wishText.textContent = wishes[currentIdx];
+        DOM.wishText.classList.add('active');
+
+        // Logic kiểm tra xem đã đến lời chúc cuối cùng chưa
+        if (currentIdx === wishes.length - 1) {
+            isFinished = true;
+            DOM.hintText.innerHTML = '<span aria-hidden="true">💖</span> Chạm lần cuối nhé! <span aria-hidden="true">💖</span>';
+        } else {
+            currentIdx++;
+        }
+
+        setTimeout(() => { isAnimating = false; }, 400);
+      }, 300);
+    };
+
+    DOM.btnOpen.addEventListener('click', (e) => {
+      DOM.btnOpen.classList.add('hide');
+      DOM.card.classList.add('show');
+      changeWish(e);
+    });
+
+    DOM.card.addEventListener('click', changeWish);
+
+    // --- 3. HIỆU ỨNG PARALLAX 3D - Giới hạn góc xoay ---
+    const PARALLAX_SENSITIVITY = 30; // Tăng từ 25 → 30 để giảm độ xoay
+    const MAX_ROTATION = 12; // Giới hạn max ±12 độ
+
+    const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+
+    document.addEventListener('mousemove', (e) => {
+      if (!DOM.card.classList.contains('show')) return;
+
+      const xAxis = (window.innerWidth / 2 - e.pageX) / PARALLAX_SENSITIVITY;
+      const yAxis = (window.innerHeight / 2 - e.pageY) / PARALLAX_SENSITIVITY;
+
+      // Clamp để không xoay quá 12 độ
+      const clampedX = clamp(xAxis, -MAX_ROTATION, MAX_ROTATION);
+      const clampedY = clamp(yAxis, -MAX_ROTATION, MAX_ROTATION);
+
+      DOM.cardWrap.style.transform = `rotateY(${clampedX}deg) rotateX(${clampedY}deg)`;
+    });
+
+    document.addEventListener('mouseleave', () => {
+      DOM.cardWrap.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    });
+
+
+    // --- 4. HỆ THỐNG CANVAS - Error handling & Retina optimization ---
+    const cvsBg = document.getElementById('canvas-bg');
+    const cvsUi = document.getElementById('canvas-ui');
+
+    // Error handling: Check canvas support
+    if (!cvsBg || !cvsUi) {
+      console.warn('Canvas not supported');
+      return; // Early exit nếu không có canvas
+    }
+
+    const ctxBg = cvsBg.getContext('2d');
+    const ctxUi = cvsUi.getContext('2d');
+
+    if (!ctxBg || !ctxUi) {
+      console.warn('Canvas 2D context not supported');
+      return;
+    }
+
+    let w, h;
+    const dpr = window.devicePixelRatio || 1; // Retina optimization
+
+    const resize = () => {
+      w = window.innerWidth;
+      h = window.innerHeight;
+
+      // Optimize for Retina displays
+      cvsBg.width = cvsUi.width = w * dpr;
+      cvsBg.height = cvsUi.height = h * dpr;
+
+      // Scale context
+      cvsBg.style.width = cvsUi.style.width = w + 'px';
+      cvsBg.style.height = cvsUi.style.height = h + 'px';
+
+      ctxBg.scale(dpr, dpr);
+      ctxUi.scale(dpr, dpr);
+    };
+
+    window.addEventListener('resize', resize);
+    resize();
+
+    // KHAI BÁO BIẾN DÙNG CHUNG TRÁNH TẠO MỚI (Memory Leak Fix)
+    const PI2 = Math.PI * 2;
+
+    // --- 4A. CANVAS CACHING: TỰ VẼ CÁNH HOA ĐÀO (Sakura) VÀ LƯU RA ẢNH ---
+    // Việc tự vẽ phức tạp rất nặng, Senior sẽ vẽ nó ra 1 cái canvas ẩn (Offscreen Canvas) 1 lần duy nhất,
+    // sau đó dùng drawImage để render hàng trăm cánh hoa với tốc độ bàn thờ.
+    const createPetalCanvas = (color) => {
+      const pCvs = document.createElement('canvas');
+      pCvs.width = 40; pCvs.height = 40;
+      const pCtx = pCvs.getContext('2d');
+      pCtx.fillStyle = color;
+      pCtx.beginPath();
+      // Vẽ hình giọt nước/cánh hoa
+      pCtx.moveTo(20, 5);
+      pCtx.bezierCurveTo(35, 15, 40, 30, 20, 38);
+      pCtx.bezierCurveTo(0, 30, 5, 15, 20, 5);
+      pCtx.fill();
+      return pCvs;
+    };
+    const petalColors = ['#ff8fb3', '#ffa6c9', '#ffccd5', '#ffffff'];
+    const petalImages = petalColors.map(c => createPetalCanvas(c));
+
+    // Hệ thống Hạt Cánh hoa (Rơi chậm ở nền)
+    const petals = [];
+    class Petal {
+      constructor() { this.reset(true); }
+      reset(randomY = false) {
+        this.x = Math.random() * w;
+        this.y = randomY ? Math.random() * h : -50;
+        this.size = Math.random() * 0.4 + 0.2; // Tỉ lệ scale
+        this.speedY = Math.random() * 1.5 + 0.5;
+        this.speedX = (Math.random() - 0.5) * 1;
+        this.angle = Math.random() * PI2;
+        this.spin = (Math.random() - 0.5) * 0.05;
+        this.img = petalImages[Math.floor(Math.random() * petalImages.length)];
+      }
+      update() {
+        this.y += this.speedY;
+        this.x += this.speedX + Math.sin(this.y * 0.02) * 0.5; // FIX: Đã sửa từ Math.speedX → this.speedX
+        this.angle += this.spin;
+        if (this.y > h + 50 || this.x < -50 || this.x > w + 50) this.reset();
+      }
+      draw() {
+        ctxBg.save();
+        ctxBg.translate(this.x, this.y);
+        ctxBg.rotate(this.angle);
+        ctxBg.scale(this.size, this.size);
+        // Tâm của ảnh 40x40 là 20,20
+        ctxBg.drawImage(this.img, -20, -20);
+        ctxBg.restore();
+      }
+    }
+    for(let i=0; i<30; i++) petals.push(new Petal()); // 30 cánh hoa bay nhẹ nhàng
+
+    // --- 4B. HIỆU ỨNG PHÁO HOA - Memory limit protection ---
+    const sparkles = [];
+    const MAX_SPARKLES = 500; // Giới hạn max particles để tránh memory leak
+
+    class Sparkle {
+      constructor(x, y) {
+        this.x = x; this.y = y;
+        const angle = Math.random() * PI2;
+        const velocity = Math.random() * 5 + 2;
+        this.vx = Math.cos(angle) * velocity;
+        this.vy = Math.sin(angle) * velocity;
+        this.life = 1;
+        this.decay = Math.random() * 0.02 + 0.015;
+        // Update colors to match new palette
+        this.color = Math.random() > 0.5 ? '#d4af37' : '#ff6b9d'; // Gold hoặc Pink
+        this.size = Math.random() * 3 + 1.5;
+      }
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vy += 0.1; // Gravity
+        this.life -= this.decay;
+      }
+      draw() {
+        ctxUi.beginPath();
+        ctxUi.arc(this.x, this.y, this.size, 0, PI2);
+        ctxUi.fillStyle = this.color;
+        ctxUi.globalAlpha = Math.max(0, this.life);
+        ctxUi.fill();
+        ctxUi.globalAlpha = 1;
+      }
+    }
+
+    // Hàm kích hoạt bắn kim tuyến - với memory protection
+    const triggerSparkles = (x, y) => {
+      // Chỉ tạo thêm nếu chưa đạt limit
+      if (sparkles.length >= MAX_SPARKLES) return;
+
+      const count = Math.min(40, MAX_SPARKLES - sparkles.length);
+      for(let i = 0; i < count; i++) {
+        sparkles.push(new Sparkle(x, y));
+      }
+    };
+
+    // --- 4C. HIỆU ỨNG TRÁI TIM NỔ (HEART EXPLOSION) ---
+    const hearts = [];
+
+    class Heart {
+      constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.size = Math.random() * 20 + 10;
+        const angle = Math.random() * PI2;
+        const velocity = Math.random() * 10 + 5;
+        this.vx = Math.cos(angle) * velocity;
+        this.vy = Math.sin(angle) * velocity;
+        this.life = 1;
+        this.decay = Math.random() * 0.01 + 0.005;
+        this.color = '#e91e63'; // Màu hồng đậm
+      }
+
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vy += 0.2; // Gravity nặng hơn chút
+        this.life -= this.decay;
+        this.size *= 0.98; // Thu nhỏ dần
+      }
+
+      draw() {
+        ctxUi.save();
+        ctxUi.translate(this.x, this.y);
+        ctxUi.globalAlpha = Math.max(0, this.life);
+        ctxUi.fillStyle = this.color;
+
+        // Vẽ hình trái tim
+        ctxUi.beginPath();
+        const topCurveHeight = this.size * 0.3;
+        ctxUi.moveTo(0, topCurveHeight);
+        ctxUi.bezierCurveTo(0, 0, -this.size / 2, 0, -this.size / 2, topCurveHeight);
+        ctxUi.bezierCurveTo(-this.size / 2, this.size / 2, 0, this.size, 0, this.size * 1.2); // Đỉnh nhọn dưới
+        ctxUi.bezierCurveTo(0, this.size, this.size / 2, this.size / 2, this.size / 2, topCurveHeight);
+        ctxUi.bezierCurveTo(this.size / 2, 0, 0, 0, 0, topCurveHeight);
+        ctxUi.fill();
+
+        ctxUi.restore();
+      }
+    }
+
+    const triggerHeartExplosion = () => {
+        // Ẩn gợi ý
+        DOM.hintText.style.opacity = 0;
+
+        const centerX = w / 2;
+        const centerY = h / 2;
+
+        // Tạo 50 trái tim nổ ra từ giữa
+        for(let i = 0; i < 50; i++) {
+            hearts.push(new Heart(centerX, centerY));
+        }
+    };
+
+    // --- 5. RENDER LOOP CHÍNH ---
+    const animate = () => {
+      // Xoá màn hình
+      ctxBg.clearRect(0, 0, w, h);
+      ctxUi.clearRect(0, 0, w, h);
+
+      // Vẽ hoa rơi ở dưới
+      petals.forEach(p => { p.update(); p.draw(); });
+
+      // Vẽ kim tuyến ở trên, tự dọn dẹp (Garbage Collection tối ưu)
+      for (let i = sparkles.length - 1; i >= 0; i--) {
+        const s = sparkles[i];
+        s.update();
+        if (s.life <= 0) {
+          sparkles.splice(i, 1); // Xoá hạt chết khỏi mảng
+        } else {
+          s.draw();
+        }
+      }
+
+      // Vẽ trái tim nổ
+      for (let i = hearts.length - 1; i >= 0; i--) {
+        const h = hearts[i];
+        h.update();
+        if (h.life <= 0) {
+            hearts.splice(i, 1);
+        } else {
+            h.draw();
+        }
+      }
+
+      requestAnimationFrame(animate);
+    };
+
+    // Chạy
+    if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      animate();
+    }
+
+  })();
+</script>
+</body>
+</html>
